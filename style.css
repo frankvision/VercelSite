@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&family=Playfair+Display:wght@400;700&family=Space+Grotesk:wght@300;400;600&family=DM+Sans:wght@400;500;700&family=Archivo:wght@400;600&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-color: #141414;
+  --bright-color: #eee;
+  --leaf-color: rgba(0, 255, 255, 0.4);
+  --gray-color: #aaa;
+}
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #ccc;
+  color: var(--dark-color);
+}
+.megawrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.subhead {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  letter-spacing: 0.18em;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  background: var(--dark-color);
+  color: var(--bright-color);
+  font-size: 1.6em;
+  position: relative;
+  margin-bottom: 40px;
+  padding: 0 20px;
+}
+
+nav::after {
+  content: "";
+  inset: 0;
+  position: absolute;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), var(--leaf-color));
+  transform: translate(10px, 10px);
+  pointer-events: none;
+  z-index: -1;
+  
+}
+
+nav a {
+  text-decoration: inherit;
+  color: inherit;
+  display: inline-block;
+  cursor: pointer;
+  
+}
+
+
+nav a:hover {
+  text-decoration: underline 2px solid var(--bright-color);
+  color: #eee;
+}
+
+.content {
+  width: 100%;
+  min-height: 200px;
+  background: var(--gray-color);
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 20px;
+}
+
+.content h2 {
+  font-size: 1.8em;
+}
+
+.media {
+width: 200px;
+  height: 200px;
+  overflow: hidden;
+  min-height: 0;
+}
+
+.media img,
+.media iframe {
+width: 100%;
+height: 100%;
+object-fit: cover;
+  display: block;
+  border: 0;
+}
+
+.actiman {
+  position: relative;
+  z-index: 1;
+}
+
+.actiman::before {
+  background:linear-gradient(rgba(200, 200, 100, 0.4), rgba(0, 255, 0, 0.1));
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  left: -10px;
+  right: -10px;
+}
+
+.content--map {
+grid-template-columns: 1fr 2fr;  
+}
+
+.content--map .media {
+  width: 100%;
+  height: 100%;
+}
