@@ -5,6 +5,7 @@ body {
   background: linear-gradient(60deg, black, #777);
   background-repeat: no-repeat;
   min-height: 100vh;
+  font-family: 'Syne';
 
 }
 
@@ -12,7 +13,6 @@ h1 {
   margin: 80px auto 0 auto;
   font-size: 4rem;
   letter-spacing: 0.4em;
-  font-family: 'Century Gothic';
   text-shadow: 0 4px 8px yellow,
     0 8px 14px yellow;
   padding-bottom: 14px;
