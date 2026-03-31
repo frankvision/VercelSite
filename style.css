@@ -55,14 +55,14 @@ h1 {
   transform: rotate(240deg);
 }
 .number:nth-child(7) {
-  left: 8000px; 
+  left: 800px; 
   top: 320px;
   transform: rotate(320deg);
 }
 
 @keyframes runner {
-  from {transform: rotate(0deg); }
-  to{transform: rotate(360deg); }
+  from {rotate(0deg); }
+  to{ rotate(360deg); }
 
 }
 
