@@ -27,7 +27,7 @@ h1::after {
   height: 4px;
   background: orange;
   box-shadow: 0 4px 8px white;
-  animation: skyline 8s ease-in-out infinite alternate;
+  animation: skyline 8s ease-in-out infinite;
 }
   
 
