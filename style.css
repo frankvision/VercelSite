@@ -17,15 +17,16 @@ h1 {
 }
 
 h1::after {
+  content: "";
   position: absolute;
   bottom: 0;
-  right: -50%;
+  left: 50%;
   transform: translateX(-50%);
   width: 0%;
   height: 4px;
   background: orange;
   box-shadow: 0 4px 8px white;
-  animation: skyline 0.4s infinite alternate;
+  animation: skyline 0.4s ease-in-out infinite alternate;
 }
   
 
