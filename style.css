@@ -22,7 +22,7 @@ h1 {
   padding-top: 80px;
   position: relative;
   width: fit-content;
-  background: linear-gradient(60deg, purple, white);
+  background: linear-gradient(60deg, purple, #777);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
     
