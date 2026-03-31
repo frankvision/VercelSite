@@ -2,14 +2,11 @@
 
 
 body {
-  background: linear-gradient(60deg, black, #777);
+  background: linear-gradient(60deg, black 0% 10%, #777 20% 30%, purple 40% 50%, white 60% 70%, purple, 80%, 90%, white);
+    
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: 'Bebas Neue';
-  box-shadow: inset 7em 3em 80px white,
-    inset 9em 3em 30px white,
-    inset 10em 5em 50px white,
-    inset 12em 7em 70px white;
 
 }
 
