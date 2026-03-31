@@ -6,10 +6,10 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: 'Bebas Neue';
-  box-shadow: inset 5em 1em white,
-    inset 7em 3em white,
-    inset 10em 5em white,
-    inset 12em 7em white;
+  box-shadow: inset 5em 1em 10px white,
+    inset 7em 3em 30px white,
+    inset 10em 5em 50px white,
+    inset 12em 7em 70px white;
 
 }
 
