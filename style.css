@@ -24,7 +24,7 @@ h1 {
   left: 200px;
   z-index: -1;
   border-radius: 6px;
-  animation: runner 3s infinite alternate;
+  animation: runner 3s linear infinite;
 
 }
 
