@@ -27,7 +27,7 @@ h1::after {
   height: 4px;
   background: orange;
   box-shadow: 0 4px 8px white;
-  animation: skyline 6s ease-in-out infinite alternate;
+  animation: skyline 8s ease-in-out infinite alternate;
 }
   
 
@@ -88,9 +88,9 @@ h1::after {
 }
 
 @keyframes skyline {
-  0% {width: 0; }
-  10%{ width: 100%; }
-  20%{ width: 0; }
+  0% {width: 0; opacity: 0; }
+  10%{ width: 100%; opacity: 1}
+  20%{ width: 0; opacity: 0}
 
 }
 
