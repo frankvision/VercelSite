@@ -45,39 +45,39 @@ h1::after {
 
 }
 .number:nth-child(2) {
-  left: 340px; 
+  left: 220px; 
   top: 140px;
   transform: rotate(40deg);
 }
 .number:nth-child(3) {
-  top: 380px; 
-  left: 200px;
+  top: 240px; 
+  left: 160px;
   transform: rotate(40deg);
 }
 
 .number:nth-child(4) {
-  top: 400px; 
-  left: 240px;
+  top: 260px; 
+  left: 180px;
   transform: rotate(60deg);
 }
 .number:nth-child(5) {
-  top: 440px; 
-  left: 280px;
+  top: 260px; 
+  left: 210px;
   transform: rotate(90deg);
 }
 .number:nth-child(6) {
-  top: 540px; 
-  left: 300px;
+  top: 270px; 
+  left: 230px;
   transform: rotate(140deg);
 }
 .number:nth-child(7) {
-  top: 580px; 
-  left: 320px;
+  top: 280px; 
+  left: 260px;
   transform: rotate(240deg);
 }
 .number:nth-child(8) {
-  top: 600px; 
-  left: 380px;
+  top: 284px; 
+  left: 280px;
   transform: rotate(320deg);
 }
 
