@@ -6,9 +6,9 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: 'Bebas Neue';
-  box-shadow: inset 5em 1em 10px white,
+  box-shadow: inset 5em 1em 80px rebeccapurple,
     inset 7em 3em 30px white,
-    inset 10em 5em 50px white,
+    inset 10em 5em 50px purple,
     inset 12em 7em 70px white;
 
 }
