@@ -88,8 +88,8 @@ h1::after {
 }
 
 @keyframes skyline {
-  from {width: 0; }
-  to{ width: 100%; }
+  0% {width: 0; }
+  10%{ width: 100%; }
 
 }
 
