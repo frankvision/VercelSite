@@ -7,9 +7,9 @@ body {
 
 h1 {
   margin: 0 auto;
-  font-size: 6rem;
+  font-size: 4rem;
   letter-spacing: 0.4em;
-  font-family: 'Arial Black';
+  font-family: 'Century Gothic';
   text-shadow: 0 4px 8px yellow,
     0 8px 14px yellow;
   padding: bottom 14px;
