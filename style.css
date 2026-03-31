@@ -2,7 +2,7 @@
 
 
 body {
-  background: linear-gradient(60deg, black 0% 10%, #777 20% 30%, purple 40% 50%, white 60% 70%, purple, 80%, 90%, white);
+  background: linear-gradient(60deg, #bbb, #ddd);
     
   background-repeat: no-repeat;
   min-height: 100vh;
