@@ -6,13 +6,14 @@ body {
 }
 
 h1 {
-  text-align: center;
+  margin: 0 auto;
   font-size: 4rem;
   font-family: 'Arial Black';
   text-shadow: 0 4px 8px yellow,
     0 8px 14px yellow;
-  padding: bottom: 14px;
+  padding: bottom 14px;
   position: relative;
+  display: inline-block;
     
 }
 
@@ -26,7 +27,7 @@ h1::after {
   height: 4px;
   background: orange;
   box-shadow: 0 4px 8px white;
-  animation: skyline 0.4s ease-in-out infinite alternate;
+  animation: skyline 2s ease-in-out infinite alternate;
 }
   
 
