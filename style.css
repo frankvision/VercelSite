@@ -2,7 +2,9 @@
 
 
 body {
-  background: linear-gradient(60deg, #222, #111);
+  background: linear-gradient(60deg, #222, #111),
+    linear-gradient(20deg, black, black),
+    radial-gradient(circle, lime, yellow);
     
   background-repeat: no-repeat;
   min-height: 100vh;
