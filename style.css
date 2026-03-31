@@ -6,6 +6,10 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
   font-family: 'Bebas Neue';
+  box-shadow: inset 5em 1em white,
+    inset 7em 3em white,
+    inset 10em 5em white,
+    inset 12em 7em white;
 
 }
 
@@ -45,37 +49,3 @@ h1::after {
 
 }
 
-.rain-bg {
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  overflow: hidden;
-  z-index: 0;
-}
-
-.rain-line {
-  position: absolute;
-  top: -20%;
-  width: 1px;
-  height: 160px;
-  opacity: 0.35;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    rgba(255,255,255,0.9),
-    transparent
-  );
-  animation-name: rain-fall;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rain-fall {
-  from {
-    transform: translateY(-180px);
-  }
-  to {
-    transform: translateY(120vh);
-  }
-}
-  
