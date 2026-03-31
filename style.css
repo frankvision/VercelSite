@@ -20,47 +20,47 @@ h1 {
   background: radial-gradient(white, rebeccapurple);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   position: absolute;
-  top: 600px;
-  left: 200px;
+  top: 200px;
+  left: 100px;
   z-index: -1;
   border-radius: 6px;
   animation: runner 3s linear infinite;
 
 }
 .number:nth-child(2) {
-  left: 640px; 
-  top: 80px;
+  left: 340px; 
+  top: 140px;
   transform: rotate(40deg);
 }
 .number:nth-child(3) {
-  top: 700px; 
-  left: 80px;
+  top: 380px; 
+  left: 200px;
   transform: rotate(40deg);
 }
 
 .number:nth-child(4) {
-  top: 760px; 
-  left: 140px;
+  top: 400px; 
+  left: 240px;
   transform: rotate(60deg);
 }
 .number:nth-child(5) {
-  top: 800px; 
-  left: 180px;
+  top: 440px; 
+  left: 280px;
   transform: rotate(90deg);
 }
 .number:nth-child(6) {
-  top: 840px; 
-  left: 220px;
+  top: 540px; 
+  left: 300px;
   transform: rotate(140deg);
 }
 .number:nth-child(7) {
-  top: 900px; 
-  left: 260px;
+  top: 580px; 
+  left: 320px;
   transform: rotate(240deg);
 }
 .number:nth-child(8) {
-  top: 960px; 
-  left: 320px;
+  top: 600px; 
+  left: 380px;
   transform: rotate(320deg);
 }
 
