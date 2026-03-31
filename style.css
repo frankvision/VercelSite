@@ -53,7 +53,7 @@ h1::after {
 .number:nth-child(2) {
  
   top: 350px;
-   left: 270px; 
+   left: 240px; 
   transform: rotate(40deg);
 }
 .number:nth-child(3) {
@@ -78,12 +78,12 @@ h1::after {
   transform: rotate(140deg);
 }
 .number:nth-child(7) {
-  top: 520px; 
+  top: 320px; 
   left: 680px;
   transform: rotate(240deg);
 }
 .number:nth-child(8) {
-  top: 540px; 
+  top: 340px; 
   left: 780px;
   transform: rotate(320deg);
 }
