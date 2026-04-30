@@ -20,11 +20,13 @@ h1 {
   border: 6px solid rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   padding: 6px;
+  color: #fff7;
 }
 p {
   font-size: 1.4rem;
   text-align: center;
   margin-top: 60px;
+  color: #fff5;
 }
 
 
